@@ -99,5 +99,16 @@
     <p>&copy; 2026 Luxe Glow Spa. All rights reserved.</p>
   </footer>
 
-</body>
+<script>
+  document.getElementById("whatsapp-button").addEventListener("click", function() {
+    console.log("WhatsApp button clicked"); // For testing in console
+    // Optional: Track in Google Analytics
+    if(typeof gtag === "function") {
+      gtag('event', 'click', {
+        'event_category': 'WhatsApp',
+        'event_label': 'Top-right button'
+      });
+    }
+  });
+</script></body>
           </html>

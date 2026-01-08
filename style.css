@@ -17,7 +17,6 @@ nav a { margin-left:20px; font-weight:600; color:#333; transition:0.3s; }
 nav a:hover { color:#d4af37; }
 
 /* Hero */
-.hero .hero {
   background-image: url('hero.jpg');
   background-position: center;
   background-size: cover;

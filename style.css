@@ -20,7 +20,7 @@ nav a:hover { color:#d4af37; }
   .hero {
   height: 90vh;
   width: 100%;
-  background-image: url(".hero-bg.jpg");
+  background-image: url("./hero-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ nav a:hover { color:#d4af37; }
   flex-direction: column;
 
   text-align: center;
-  color: red;
+  color: #ffffff;
   }
 
 /* Sections */

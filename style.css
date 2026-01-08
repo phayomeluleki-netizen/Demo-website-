@@ -19,19 +19,18 @@ nav a:hover { color:#d4af37; }
 /* Hero */
   .hero {
   height: 90vh;
-  width: 100%;
-  background-image: url(".hero-bg.jpg");
+  background-image: url("hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   text-align: center;
-  color: green;
+  color: white;
   }
 
 /* Sections */

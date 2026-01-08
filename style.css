@@ -20,7 +20,7 @@ nav a:hover { color:#d4af37; }
   .hero {
   height: 90vh;
   width: 100%;
-  background-image: url("./hero.jpg");
+  background-image: url(".red");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

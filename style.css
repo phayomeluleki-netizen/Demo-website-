@@ -6,7 +6,12 @@ img { max-width:100%; display:block; }
 .container { max-width:1200px; margin:0 auto; padding:0 20px; }
 
 /* Header */
-header { display:flex; justify-content:space-between; align-items:center; padding:20px 0; }
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+} padding:20px 0; }
 header .logo { font-family: 'Playfair Display', serif; font-size:2rem; color:#d4af37; font-weight:700; }
 nav a { margin-left:20px; font-weight:600; color:#333; transition:0.3s; }
 nav a:hover { color:#d4af37; }
